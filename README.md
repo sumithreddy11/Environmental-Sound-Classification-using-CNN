@@ -11,7 +11,7 @@ A deep learning-based **Environmental Sound Classification (ESC)** system using 
 
 ---
 
-## ** Project Overview**
+## Project Overview
 
 Environmental Sound Classification enables machines to automatically recognize sounds from their surroundings.
 
@@ -31,7 +31,7 @@ The project also contains an inference pipeline for testing previously unseen `.
 
 ---
 
-## ** Objectives**
+## Objectives
 
 The main objectives of this project are:
 
@@ -46,13 +46,13 @@ The main objectives of this project are:
 
 ---
 
-## ** Dataset**
+## Dataset
 
 This project uses the **UrbanSound8K** environmental sound dataset.
 
 UrbanSound8K is a benchmark dataset containing labeled environmental audio recordings distributed across multiple environmental sound categories.
 
-### **Selected Classes**
+### Selected Classes
 
 | Class | Description |
 |---|---|
@@ -62,17 +62,17 @@ UrbanSound8K is a benchmark dataset containing labeled environmental audio recor
 | `siren` | Emergency vehicle siren sounds |
 | `engine_idling` | Vehicle engine idling sounds |
 
-### **Dataset Source**
+### Dataset Source
 
 UrbanSound8K:
 
 https://urbansounddataset.weebly.com/urbansound8k.html
 
-> **Note:** The dataset is not included in this repository because of its size and distribution considerations. Download the dataset separately before running the notebook.
+> Note: The dataset is not included in this repository because of its size and distribution considerations. Download the dataset separately before running the notebook.
 
 ---
 
-## ** Methodology**
+## Methodology
 
 The complete project workflow is:
 
