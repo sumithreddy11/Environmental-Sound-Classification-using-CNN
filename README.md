@@ -11,7 +11,7 @@ A deep learning-based **Environmental Sound Classification (ESC)** system using 
 
 ---
 
-## **📌 Project Overview**
+## ** Project Overview**
 
 Environmental Sound Classification enables machines to automatically recognize sounds from their surroundings.
 
@@ -19,11 +19,11 @@ This project transforms environmental audio recordings into MFCC feature represe
 
 The project uses the **UrbanSound8K** dataset and focuses on five environmental sound classes:
 
-- 🐕 **Dog Bark**
-- 🚗 **Car Horn**
-- ❄️ **Air Conditioner**
-- 🚨 **Siren**
-- 🚘 **Engine Idling**
+-  **Dog Bark**
+-  **Car Horn**
+-  **Air Conditioner**
+-  **Siren**
+-  **Engine Idling**
 
 The trained model achieved a **92.32% accuracy on the held-out test set**.
 
@@ -31,7 +31,7 @@ The project also contains an inference pipeline for testing previously unseen `.
 
 ---
 
-## **🎯 Objectives**
+## ** Objectives**
 
 The main objectives of this project are:
 
@@ -46,7 +46,7 @@ The main objectives of this project are:
 
 ---
 
-## **🗂️ Dataset**
+## ** Dataset**
 
 This project uses the **UrbanSound8K** environmental sound dataset.
 
@@ -72,7 +72,7 @@ https://urbansounddataset.weebly.com/urbansound8k.html
 
 ---
 
-## **🔬 Methodology**
+## ** Methodology**
 
 The complete project workflow is:
 
