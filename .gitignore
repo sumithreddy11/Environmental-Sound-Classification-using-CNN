@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+Dataset/
+dataset/
+UrbanSound8K/
+*.wav
+*.mp3
+*.flac
+
+# Models
+models/*.keras
+
+# Generated arrays
+models/*.npy
+models/*.npz
+
+# Results
+results/*.png
+results/*.txt
+
+# Environments
+venv/
+env/
+.venv/
+
+# Google Colab
+/content/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
