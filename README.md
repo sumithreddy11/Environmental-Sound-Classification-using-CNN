@@ -133,7 +133,21 @@ The complete project workflow is:
                          │
                          ▼
               Class + Confidence Score
+```
 
+## Run locally
 
+Download UrbanSound8K separately. Put its metadata CSV in `Dataset/metadata/` and its fold directories in `Dataset/`, or adjust `src/data_loader.py` for your local layout. From the repository root, install the dependencies, train the model, and run evaluation or WAV inference.
 
+```bash
+python -m pip install -r requirements.txt
+python src/train.py
+python src/evaluate.py
+python src/predict.py path/to/audio.wav
+```
 
+The reported accuracy applies to the held-out split described above. The inference script runs on a host Python environment.
+
+## License
+
+[MIT](LICENSE)
